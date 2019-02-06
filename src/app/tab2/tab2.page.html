@@ -1,9 +1,45 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab Two
+      Se Connecter
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content class="greenc">
+  <ion-card class="welcome-card">
+    <ion-img style='width:350; height:90' src="/assets/nopale.jpg"></ion-img>
+    <ion-card-header>
+      <ion-card-title>NOPALE</ion-card-title>
+      <ion-card-subtitle>Le paiement num&eacute;rique sur le campus</ion-card-subtitle>
+
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list no-lines>
+        <ion-item>
+          <ion-col>
+            <ion-label>Numéro de t&eacute;l&eacute;phone </ion-label>
+            <ion-input type="number" placeholder="773731936"></ion-input>
+          </ion-col>
+        </ion-item>
+        <ion-item>
+          <ion-col>
+            <ion-label>Mot de passe </ion-label>
+            <ion-input type="password" placeholder="********"></ion-input>
+          </ion-col>
+        </ion-item>
+        <div class="spacer" style="height:15px;"></div>
+        <a>Besoin d'aide ? </a>
+        <div class="spacer" style="height: 10px;"></div>
+        <div text-center>
+          <ion-button class='center' color="dark">Se connecter</ion-button>
+        </div>
+        <div class="spacer" style="height: 10px;"></div>
+
+      </ion-list>
+
+    </ion-card-content>
+  </ion-card>
+
+
+</ion-content>
